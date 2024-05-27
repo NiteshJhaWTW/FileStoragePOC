@@ -37,7 +37,6 @@ namespace FileStoragePOC
             string[] file = { "Hello World~", "Nitesh Jha~","abc!~","~abcc","~jkgjgjkkk~~~" };
 
 
-
             byte[] content = ConvertToByteArray(file);
 
             exportFile.FileContent = content;
